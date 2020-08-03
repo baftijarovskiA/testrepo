@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATHP=/home/artphoto/test.art-photo.mk/
     - export DEPLOYPATH=/home/artphoto/testapp/
     - /bin/cp -R * $DEPLOYPATH
-    - /bin/cp -R /public/* $DEPLOYPATHP
+    - /bin/cp -R public/* $DEPLOYPATHP
