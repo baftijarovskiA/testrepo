@@ -1,7 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATHP=/home/artphoto/test.art-photo.mk/
-    - export DEPLOYPATH=/home/artphoto/testapp/
-    - /bin/cp -R * $DEPLOYPATH
-    - /bin/cp -R public/* $DEPLOYPATHP
+    - export DEPLOYPATH=/home/artphoto/test.art-photo.mk/
+    - /bin/cp -R public/* $DEPLOYPATH
